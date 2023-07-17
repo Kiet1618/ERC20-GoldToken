@@ -1,0 +1,9 @@
+# ERC20 with hardhat framework
+Contract token: 0xF4F7dB1BdF7Eb718C293b5d9b5D4f97827D1Ed74
+
+## Step by step to run
+
+- npx hardhat compile
+- npx hardhat test
+- npx hardhat run scripts/deploy.js --network bsctest
+- npx hardhat verify --network bsctest {contract token}
